@@ -1,2 +1,17 @@
-h1 {font-size: 100px;
-text-align: center;}
+body {display: flex;
+justify-content: center;
+flex-direction: column;}
+h1 {
+    font-size: 100px;
+    align-self: center;
+}
+
+a {
+    background-color: #E9B44C;
+    border-radius: 30px;
+    padding: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    align-self: center;
+}
