@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {display: flex;}
+
+
+
+.uvod {
+    background-color: #0B3658;
+    color: white;
+    padding: 5%;
+    padding-right: 55%;
+}
+
+.uvod a {
+    background-color: #E9B44C;
+    border-radius: 30px;
+    padding: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 75px;
+}
+
+.uvod p {
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+h2 {
+    font-size: 45px;
+    text-align: center;
+}
