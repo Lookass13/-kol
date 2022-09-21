@@ -76,21 +76,63 @@ h2 {
 
 .flexbox {
     display: flex;
+    margin: 3rem;
+    justify-content: space-between;
 }
 
 .strategie {
     background-color: #DBECE5;
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin: 0 1rem 0 0;
+    display:flex;
+    flex-direction: column;
+    color: #323436f1;
 }
 
 .marketing {
     background-color: #D1ECFD;
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin: 0 1rem 0 0;
+    display:flex;
+    flex-direction: column;
+    color: #323436f1;
 }
 
 .site {
     background-color: #FFF3EA;
+    border-radius: 15px;
+    padding: 1.5rem;
+    display:flex;
+    flex-direction: column;
+    color: #323436f1;
 }
-.flexbox a {background-color: white;
-border-radius: 30px;
-padding: 20px;
-font-weight: bold;
-text-decoration: none;}
+
+.flexbox a {
+    background-color: white;
+    border-radius: 30px;
+    padding: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 1rem 0;
+    color: black;
+    align-self: flex-start;
+    font-size: 15px;
+}
+
+.flexbox img {
+    mix-blend-mode: multiply;
+    width: 5rem;
+    margin: 0;
+
+}
+
+.flexbox h3 {
+    font-size: 32px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: black;
+}
+.flexbox p {font-size: 15px;}
