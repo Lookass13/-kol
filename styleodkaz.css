@@ -1,6 +1,9 @@
-body {display: flex;
-justify-content: center;
-flex-direction: column;}
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 h1 {
     font-size: 100px;
     align-self: center;
