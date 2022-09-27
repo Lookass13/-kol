@@ -1,32 +1,52 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
 body {
     margin: 0;
-    font-size: 20px;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
-    width: 1170px;
     margin: 0 auto;
+    width: 1170px;
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width: 1200px) { 
+    .uvod__title {
+        font-size: 2.5rem;
+    }
     .container {
-        padding: 0 2rem;
+        width: 100%;
+        padding: 0 3rem;     
+    }   
+}
+
+@media screen and (max-width: 992px) { 
+    .container--hero {
         width: 100%;
     }
 }
 
-header {
+.hlavicka {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0% 5%;
     align-items: center;
 }
 
 header img {
     width: 5rem;
     background-color: white;
+}
+
+@media screen and (max-width: 1200px) { 
+    .menu {
+        display: none;
+    }  
 }
 
 .menu li {
@@ -36,10 +56,8 @@ header img {
 .menu a {
     text-decoration: none;
     color: black;
-    font-size: 16px;
     padding: 1rem;
     font-weight: bold;
-
 }
 
 header .btn {
@@ -57,22 +75,20 @@ header .btn {
 
 
 .uvod {
-    background-color: #0B3658;
-    color: white;
-    padding: 5%;
+    padding: 2rem 0;
+    background-color: #003057;
+    color: #ffffff;
 }
 
 .container--uvod {
-    width: 50%;
+    width: 55%;
 }
 
-@media screen and (max-width:850px) {
-    .uvod {
-        padding-right: 0;
-    }
-
+@media screen and (max-width: 1200px) { 
+    .container--uvod {
+        width: 100%;
+    }  
 }
-
 
 .uvod a {
     background-color: #E9B44C;
@@ -83,8 +99,14 @@ header .btn {
     text-decoration: none;
 }
 
-h1 {
-    font-size: 75px;
+.uvod__title {
+    font-size: 4rem;
+}
+
+@media screen and (max-width: 1200px) { 
+    .uvod__title {
+        font-size: 2.5rem;
+    }  
 }
 
 .uvod p {
