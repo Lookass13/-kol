@@ -159,7 +159,7 @@ h2 {
     bottom: 0;
     margin: auto;
     transform: scale(2);
-
+    filter: invert(1);
 }
 
 .flexbox__item {
