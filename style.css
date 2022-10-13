@@ -36,6 +36,13 @@ a {
     }
 }
 
+header {
+    width: 100%;
+    position: fixed;
+    background: white;
+    z-index: 2;
+}
+
 .hlavicka {
     display: flex;
     flex-direction: row;
@@ -88,6 +95,7 @@ header .btn {
     padding: 2rem 0;
     background-color: #003057;
     color: #ffffff;
+    padding-top: 4rem;
 }
 
 .container--uvod {
@@ -129,6 +137,7 @@ header .btn {
     justify-content: space-between;
     margin-top: 1.5rem;
     margin-bottom: 0.5rem;
+    align-items: center;
 }
 
 .nhl img {
@@ -148,10 +157,16 @@ h2 {
     }
 }
 
+.obsah {
+    margin-bottom: 13rem;
+    margin-top: 4rem;
+}
+
 .flexbox {
     display: flex;
     justify-content: space-between;
     gap: 1rem;
+    margin-top: 3rem;
 }
 
 @media screen and (max-width:768px) {
@@ -324,6 +339,7 @@ footer .phone {
     gap: 1.5rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    align-items: center;
 }
 
 .impact {
@@ -338,7 +354,7 @@ footer .phone {
 .spodek .ikons {
     display: flex;
     align-self: center;
-    gap: 1.5rem;
+    gap: 1rem;
     margin-left: auto;
 }
 

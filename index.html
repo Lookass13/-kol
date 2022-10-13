@@ -11,15 +11,17 @@
 </head>
 
 <body>
-  <header class="hlavicka container" id="hlavicka">
-    <a href="index.html"><img src="peace.jpg" alt="peace" /></a>
-    <ul class="menu">
-      <li><a href="odkaz.html">Úvod</a></li>
-      <li><a href="odkaz.html">O nás</a></li>
-      <li><a href="odkaz.html">Služby</a></li>
-      <li><a href="odkaz.html">Kontakt</a></li>
-    </ul>
-    <a href="odkaz.html" class="btn btn--with-arrow">Kontaktovat</a>
+  <header>
+    <div class="hlavicka container" id="hlavicka">
+      <a href="index.html"><img src="peace.jpg" alt="peace" /></a>
+      <ul class="menu">
+        <li><a href="odkaz.html">Úvod</a></li>
+        <li><a href="odkaz.html">O nás</a></li>
+        <li><a href="odkaz.html">Služby</a></li>
+        <li><a href="odkaz.html">Kontakt</a></li>
+      </ul>
+      <a href="odkaz.html" class="btn btn--with-arrow">Kontaktovat</a>
+    </div>
   </header>
 
   <div class="uvod">
@@ -40,39 +42,41 @@
     <a href="https://www.nhl.com/sharks" target="_blank"><img src="san-jose-sharks-logo.svg" alt="san jose"></a>
     <a href="https://www.nhl.com/flyers" target="_blank"><img src="phila.svg" alt="phila"></a>
   </section>
-  <h2>Usnadňujeme sebeprezentaci na internetu</h2>
-  <div class="flexbox container">
-    <section class="flexbox__item strategie">
-      <img src="business-strategy.svg" alt="strategie" />
-      <h3>Propagační strategie</h3>
-      <p>
-        You are always welcome to visit our little den. Professional in teir-craft! All products were super amazing
-        witch strong attension to details, comps and overall vibe.
-      </p>
-      <a class="btn btn--with-arrow" href="odkaz.html">Více</a>
-      <img class="design-element" src="business-strategy.svg" alt="strategie" />
-    </section>
-    <section class="flexbox__item marketing">
-      <img src="local.svg" alt="marketing" />
-      <h3>Marketing</h3>
-      <p>
-        You are always welcome to visit our little den. Professional in teir-craft! All products were super amazing
-        witch strong attension to details, comps and overall vibe.
-      </p>
-      <a class="btn btn--with-arrow" href="odkaz.html">Více</a>
-      <img class="design-element" src="local.svg" alt="marketing" />
-    </section>
-    <section class="flexbox__item site">
-      <img src="social.svg" alt="site" />
-      <h3>Sociální sítě</h3>
-      <p>
-        You are always welcome to visit our little den. Professional in teir-craft! All products were super amazing
-        witch strong attension to details, comps and overall vibe.
-      </p>
-      <a class="btn btn--with-arrow" href="odkaz.html">Více</a>
-      <img class="design-element" src="social.svg" alt="site" />
-    </section>
-  </div>
+  <section class="container obsah">
+    <h2>Usnadňujeme sebeprezentaci na internetu</h2>
+    <div class="flexbox container">
+      <div class="flexbox__item strategie">
+        <img src="business-strategy.svg" alt="strategie" />
+        <h3>Propagační strategie</h3>
+        <p>
+          You are always welcome to visit our little den. Professional in teir-craft! All products were super amazing
+          witch strong attension to details, comps and overall vibe.
+        </p>
+        <a class="btn btn--with-arrow" href="odkaz.html">Více</a>
+        <img class="design-element" src="business-strategy.svg" alt="strategie" />
+      </div>
+      <div class="flexbox__item marketing">
+        <img src="local.svg" alt="marketing" />
+        <h3>Marketing</h3>
+        <p>
+          You are always welcome to visit our little den. Professional in teir-craft! All products were super amazing
+          witch strong attension to details, comps and overall vibe.
+        </p>
+        <a class="btn btn--with-arrow" href="odkaz.html">Více</a>
+        <img class="design-element" src="local.svg" alt="marketing" />
+      </div>
+      <div class="flexbox__item site">
+        <img src="social.svg" alt="site" />
+        <h3>Sociální sítě</h3>
+        <p>
+          You are always welcome to visit our little den. Professional in teir-craft! All products were super amazing
+          witch strong attension to details, comps and overall vibe.
+        </p>
+        <a class="btn btn--with-arrow" href="odkaz.html">Více</a>
+        <img class="design-element" src="social.svg" alt="site" />
+      </div>
+    </div>
+  </section>
   <div class="contact container">
     <img src="peace.jpg" alt="logo" />
     <p>Potřebujete web a nevíte kde začít?</p>
@@ -84,7 +88,9 @@
         <h4>Kontakt</h4>
       </li>
       <li>
-        <p>4517 Washington Ave. Manchester, Kentucky 39495</p>
+        <address>
+          <p>4517 Washington Ave. Manchester, Kentucky 39495</p>
+        </address>
       </li>
       <li><a class="phone">(239) 555-0108</a></li>
       <li><a href="mailto: contact@agon.com" class="mail">contact@agon.com</a></li>
@@ -124,7 +130,7 @@
     </ul>
   </footer>
   <section class="spodek container">
-    <p class="impact">ⓒ Impact Solutions s.r.o.</p>
+    <p class="impact">© Impact Solutions s.r.o.</p>
     <p>Ochrana osobních údajů</p>
     <p>Cookies</p>
     <div class="ikons">
