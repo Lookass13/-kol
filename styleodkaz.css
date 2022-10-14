@@ -50,9 +50,12 @@ header .btn {
 }
 
 .btn--with-arrow:after {
-    display: inline-block;
     content: "→";
     margin-left: 6px;
+}
+
+.btn--with-arrow__left:after {
+    display: inline-block;
     transform: rotate(180deg);
 }
 
