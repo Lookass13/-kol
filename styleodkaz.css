@@ -51,6 +51,7 @@ header .btn {
 .btn--with-arrow:after {
     content: "→";
     margin-left: 6px;
+    transform: rotate(180deg);
 }
 h1 {
     font-size: 100px;
