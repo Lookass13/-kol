@@ -95,7 +95,7 @@ header .btn {
     padding: 2rem 0;
     background-color: #003057;
     color: #ffffff;
-    padding-top: 4rem;
+    padding-top: 5rem;
 }
 
 .container--uvod {
@@ -142,6 +142,12 @@ header .btn {
 
 .nhl img {
     width: 5rem;
+}
+
+@media screen and (max-width: 710px) {
+    .nhl {
+        display: none;
+    }
 }
 
 h2 {
@@ -360,4 +366,16 @@ footer .phone {
 
 .spodek a {
     padding: 3px;
+}
+
+@media screen and (max-width:615px) {
+    .spodek {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0;
+    }
+}
+@media screen and (max-width:615px) {
+    .spodek .ikons {margin-left:0
+    }
 }
