@@ -3,6 +3,7 @@
     justify-content: center;
     flex-direction: column;
 }
+
 .container {
     margin: 0 auto;
     width: 1170px;
@@ -53,6 +54,12 @@ header .btn {
     margin-left: 6px;
     transform: rotate(180deg);
 }
+
+.btn--with-arrow__left:after {
+    display: inline-block;
+    transform: rotate(180deg);
+}
+
 h1 {
     font-size: 100px;
     align-self: center;
@@ -70,5 +77,3 @@ h1 {
     margin: 2rem;
     width: auto;
 }
-
-/* What happend here? Please use enter :-) */
